@@ -149,6 +149,7 @@ for name, attrs in pairs {
 
   -- ['@comment'] = {},
   ['@comment.documentation'] = { fg = a.com, nocombine = true },
+  ['@comment.code'] = { fg = a.ui, nocombine = true },
 
   -- ['@boolean'] = {},
   -- ['@float'] = {},
